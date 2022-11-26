@@ -17,7 +17,7 @@
             }
             body{
                 min-height: 100vh;
-                background-image: url("");
+                background-image: url("https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2017/11/10/104835376-Faunce_House_Brown_University.1910x1000.jpg");
                 background-size: 100%;
                 background-position: center center;
                 background-attachment: fixed;
