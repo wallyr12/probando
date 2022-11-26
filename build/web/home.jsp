@@ -1,5 +1,4 @@
 
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -29,7 +28,7 @@
     </head>
     <body>
         
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -42,26 +41,26 @@
                 Consultar
             </a>
         <div class="dropdown-menu">
-                <a class="dropdown-item" href="VerArticulo.jsp">Articulo</a>
+                <a class="dropdown-item" href="VerComputadora.jsp">Computadora</a>
                
             </div>
         </li>
       
-     
+      
         
       <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
                 Registrar
             </a>
         <div class="dropdown-menu">
-                <a class="dropdown-item" href="articulo.jsp">Articulo</a>
+                <a class="dropdown-item" href="RegComputadora.jsp">Computadora</a>
                
             </div>
         </li>
     </ul>
    
     </div>
-    <a class="btn btn-danger" href="Logout" >Cerrar Sesion</a>
+    <a class="btn btn-warning" href="Logout" >Cerrar Sesion</a>
     
     
 </nav>
@@ -72,3 +71,7 @@
 
 
 </html>
+
+
+
+
